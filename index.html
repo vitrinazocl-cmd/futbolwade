@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BLUELOOCK TEST FOOTBALL - Captación de Jóvenes Talentos</title>
+  <meta name="description" content="Únete al proyecto de evaluación de fútbol más exigente. Postula para pruebas de talento, evaluaciones deportivas y procesos de selección profesional.">
+  
+  <!-- Estilos principales -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ==========================================
+       HEADER / NAVEGACIÓN
+       ========================================== -->
+  <header id="header">
+    <div class="container">
+      <a href="#inicio" class="logo">
+        <div class="logo-icon">B</div>
+        <span>BLUELOOCK <span class="text-gradient">TEST</span></span>
+      </a>
+      
+      <nav id="nav-menu">
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#proceso">El Camino</a></li>
+          <li><a href="#beneficios">Beneficios</a></li>
+          <li><a href="#preguntas">Preguntas</a></li>
+          <li><a href="#postular" class="btn btn-primary nav-cta">Postular Ahora</a></li>
+        </ul>
+      </nav>
+      
+      <div class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Abrir menú">
+        <i data-lucide="menu"></i>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================
+       HERO SECTION
+       ========================================== -->
+  <section id="inicio" class="hero">
+    <!-- El fondo dinámico se define con CSS e imagen -->
+    <div class="hero-bg" style="background-image: url('hero_bg.png');"></div>
+    <div class="hero-overlay"></div>
+    
+    <div class="container">
+      <div class="hero-content reveal">
+        <div class="badge">
+          <span class="badge-dot"></span>
+          Convocatoria Abierta 2026
+        </div>
+        <h1>
+          ¿Tienes lo necesario para ser un <span class="text-gradient">Jugador de Élite</span>?
+        </h1>
+        <p>
+          Inicia tu camino en el **BLUELOOCK TEST FOOTBALL**. Un programa de evaluación deportiva de alto rendimiento diseñado para captar y proyectar jóvenes talentos hacia el fútbol profesional.
+        </p>
+        <div class="hero-quote-card">
+          <p class="hero-quote-text">"Tu amor me hace fuerte, tu odio me hace imparable. Aquí no vienes a participar, vienes a ser el mejor del mundo."</p>
+          <span class="hero-quote-author">— Cristiano Ronaldo & El Ego de la Élite</span>
+        </div>
+        <div class="hero-actions">
+          <a href="#postular" class="btn btn-primary">
+            <span>Iniciar Mi Prueba</span>
+            <i data-lucide="arrow-right"></i>
+          </a>
+          <a href="tel:999865271" class="btn btn-secondary">
+            <i data-lucide="phone"></i>
+            <span>Llamar al 999 865 271</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       STATS SECTION
+       ========================================== -->
+  <section class="stats container reveal">
+    <div class="glass-panel stats-grid">
+      <div class="stat-item">
+        <div class="stat-num">+1,500</div>
+        <div class="stat-label">Jóvenes Evaluados</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">4 Etapas</div>
+        <div class="stat-label">Filtros Exigentes</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">100%</div>
+        <div class="stat-label">Enfoque Profesional</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       SEARCH SECTION (BUSCADOR INTELIGENTE)
+       ========================================== -->
+  <section class="search-section container reveal">
+    <div class="glass-panel search-box-wrapper">
+      <div class="search-icon-box">
+        <i data-lucide="search"></i>
+      </div>
+      <input type="text" id="global-search" placeholder="¿Qué necesitas saber? Escribe tu consulta (ej. 'edad', 'costo', 'delantero', 'whatsapp')..." aria-label="Buscador global">
+      <button class="btn btn-primary search-btn" id="search-btn-trigger">Buscar</button>
+    </div>
+    <div id="search-results-feedback" class="search-feedback" style="display: none;"></div>
+  </section>
+
+  <!-- ==========================================
+       PROCESS / ROADMAP SECTION
+       ========================================== -->
+  <section id="proceso" class="process">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Tu Ruta de Selección</span>
+        <h2 class="section-title">El Proceso de Captación</h2>
+      </div>
+      
+      <div class="process-grid">
+        <!-- Tarjeta 1 -->
+        <div class="process-card glass-panel reveal">
+          <div class="process-num">01</div>
+          <h3>Registro Online</h3>
+          <p>Completa el formulario de postulación con tus datos físicos, posición y experiencia futbolística previa.</p>
+        </div>
+        
+        <!-- Tarjeta 2 -->
+        <div class="process-card glass-panel reveal">
+          <div class="process-num">02</div>
+          <h3>Evaluación Previa</h3>
+          <p>Nuestro comité deportivo analiza tu perfil y material audiovisual para preseleccionar a los talentos destacados.</p>
+        </div>
+        
+        <!-- Tarjeta 3 -->
+        <div class="process-card glass-panel reveal">
+          <div class="process-num">03</div>
+          <h3>Pruebas de Campo</h3>
+          <p>Convocatoria a entrenamientos presenciales de alta intensidad y partidos de práctica supervisados por ojeadores.</p>
+        </div>
+        
+        <!-- Tarjeta 4 -->
+        <div class="process-card glass-panel reveal">
+          <div class="process-num">04</div>
+          <h3>Selección de Élite</h3>
+          <p>Los mejores jugadores obtienen oportunidades de incorporación a academias, clubes profesionales y becas deportivas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       BENEFITS SECTION
+       ========================================== -->
+  <section id="beneficios" class="benefits">
+    <div class="container">
+      <div class="benefits-layout">
+        
+        <div class="benefits-content reveal">
+          <span class="section-subtitle">¿Por qué Blueloock?</span>
+          <h2>Llevamos tus habilidades al límite</h2>
+          <p>
+            Inspirado en metodologías europeas de desarrollo del talento, nuestro test evalúa la técnica individual, inteligencia de juego, capacidad física y mentalidad bajo presión.
+          </p>
+          
+          <div class="benefit-list">
+            <!-- Beneficio 1 -->
+            <div class="benefit-item">
+              <div class="benefit-icon">
+                <i data-lucide="award"></i>
+              </div>
+              <div class="benefit-text">
+                <h4>Evaluación Deportiva Integral</h4>
+                <p>Análisis detallado de tus fortalezas técnicas y físicas con métricas de rendimiento en tiempo real.</p>
+              </div>
+            </div>
+            
+            <!-- Beneficio 2 -->
+            <div class="benefit-item">
+              <div class="benefit-icon">
+                <i data-lucide="users"></i>
+              </div>
+              <div class="benefit-text">
+                <h4>Visibilidad Directa ante Ojeadores</h4>
+                <p>Tus pruebas serán presenciadas por directores técnicos, representantes y cazatalentos del fútbol nacional e internacional.</p>
+              </div>
+            </div>
+            
+            <!-- Beneficio 3 -->
+            <div class="benefit-item">
+              <div class="benefit-icon">
+                <i data-lucide="trending-up"></i>
+              </div>
+              <div class="benefit-text">
+                <h4>Plan de Proyección de Carrera</h4>
+                <p>Te vinculamos con agencias deportivas profesionales para guiar tus primeros contratos de representación.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="benefits-graphic reveal">
+          <div class="glass-panel graphic-card">
+            <span class="graphic-icon">⚽</span>
+            <h3>Entrenamiento de Élite</h3>
+            <p style="color: var(--text-muted); margin-bottom: 20px; font-size: 0.9rem;">
+              Enfrenta pruebas diseñadas con el rigor del fútbol moderno. Solo los más aptos serán seleccionados.
+            </p>
+            <div class="badge" style="margin-bottom: 0;">
+              <span class="badge-dot"></span>
+              Metodología Avanzada
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       SHOWCASE OF LEGENDS (GALERÍA DE INSPIRACIÓN)
+       ========================================== -->
+  <section id="leyendas" class="legends-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Aprende de los Mejores</span>
+        <h2 class="section-title">Showcase de la Élite</h2>
+      </div>
+      
+      <!-- Panel de visualización de leyendas (Estilo Ventana / Anuncios) -->
+      <div class="legends-carousel glass-panel reveal">
+        <!-- Controles del Slider -->
+        <button type="button" class="carousel-control prev" id="carousel-prev" aria-label="Anterior">
+          <i data-lucide="chevron-left"></i>
+        </button>
+        <button type="button" class="carousel-control next" id="carousel-next" aria-label="Siguiente">
+          <i data-lucide="chevron-right"></i>
+        </button>
+
+        <!-- Slides -->
+        <div class="carousel-track-container">
+          <div class="carousel-track" id="carousel-track">
+            
+            <!-- Slide Cristiano Ronaldo -->
+            <div class="carousel-slide active">
+              <div class="slide-layout">
+                <div class="slide-info">
+                  <div class="legend-badge">Disciplina de Élite</div>
+                  <h3>Cristiano Ronaldo</h3>
+                  <p class="legend-desc">La mentalidad de trabajo absoluto y potencia física. Máximo goleador histórico del fútbol profesional.</p>
+                  <blockquote class="legend-quote">"Yo sé que soy el mejor, solo tengo que demostrarlo en el campo."</blockquote>
+                </div>
+                <div class="slide-media">
+                  <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/HvoBt831t60?rel=0" title="Cristiano Ronaldo Highlights" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide Lionel Messi -->
+            <div class="carousel-slide">
+              <div class="slide-layout">
+                <div class="slide-info">
+                  <div class="legend-badge">Talento Natural</div>
+                  <h3>Lionel Messi</h3>
+                  <p class="legend-desc">La genialidad técnica, visión de juego y control milimétrico del balón. Campeón del mundo indiscutible.</p>
+                  <blockquote class="legend-quote">"Tardé 17 años y 114 días en convertirme en un éxito de la noche a la mañana."</blockquote>
+                </div>
+                <div class="slide-media">
+                  <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/V15Xz9_r88s?rel=0" title="Lionel Messi Highlights" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide Neymar Jr -->
+            <div class="carousel-slide">
+              <div class="slide-layout">
+                <div class="slide-info">
+                  <div class="legend-badge">Creatividad y Magia</div>
+                  <h3>Neymar Jr</h3>
+                  <p class="legend-desc">La alegría del juego, el regate impredecible y la improvisación fantástica que rompe cualquier defensa.</p>
+                  <blockquote class="legend-quote">"El fútbol es alegría, regatear es una expresión de libertad."</blockquote>
+                </div>
+                <div class="slide-media">
+                  <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/1s3iRshx3C0?rel=0" title="Neymar Jr Highlights" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Indicadores / Dots -->
+        <div class="carousel-indicators" id="carousel-indicators">
+          <span class="indicator active" data-slide="0"></span>
+          <span class="indicator" data-slide="1"></span>
+          <span class="indicator" data-slide="2"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       APPLICATION FORM / CONTACT
+       ========================================== -->
+  <section id="postular" class="apply">
+    <div class="container">
+      <div class="apply-layout">
+        
+        <div class="apply-info reveal">
+          <span class="section-subtitle">Da el Primer Paso</span>
+          <h2>Inicia tu Proceso de Selección</h2>
+          <p>
+            ¿Estás listo para demostrar que tienes la mentalidad de un delantero, defensor, centrocampista o arquero de élite? Rellena el formulario con información verídica. Nuestro equipo se pondrá en contacto contigo de forma inmediata.
+          </p>
+          
+          <div class="glass-panel contact-card">
+            <div class="contact-icon">
+              <i data-lucide="phone-call"></i>
+            </div>
+            <div class="contact-details">
+              <span>Soporte Telefónico y WhatsApp</span>
+              <a href="https://wa.me/51999865271?text=Hola,%20deseo%20más%20información%20sobre%20Blueloock%20Test%20Football" target="_blank">999 865 271</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="glass-panel apply-form-container reveal">
+          <!-- Formulario principal -->
+          <form id="talent-form" novalidate>
+            <!-- Nombre -->
+            <div class="form-group">
+              <input type="text" id="fullname" name="fullname" class="form-input" placeholder=" " required minlength="4">
+              <label for="fullname" class="form-label">Nombre Completo</label>
+              <span class="form-error-msg">Por favor ingresa tu nombre completo (mínimo 4 caracteres).</span>
+            </div>
+            
+            <!-- Edad -->
+            <div class="form-group">
+              <input type="number" id="age" name="age" class="form-input" placeholder=" " required min="12" max="25">
+              <label for="age" class="form-label">Edad (12 - 25 años)</label>
+              <span class="form-error-msg">Debes tener entre 12 y 25 años para postularte.</span>
+            </div>
+            
+            <!-- Posición de juego -->
+            <div class="form-group">
+              <div class="form-select-wrapper">
+                <select id="position" name="position" class="form-input" required>
+                  <option value="" disabled selected hidden></option>
+                  <option value="portero">Portero</option>
+                  <option value="defensa">Defensa</option>
+                  <option value="mediocampista">Mediocampista</option>
+                  <option value="delantero">Delantero</option>
+                </select>
+              </div>
+              <label for="position" class="form-label">Posición en el Campo</label>
+              <span class="form-error-msg">Selecciona tu posición principal de juego.</span>
+            </div>
+            
+            <!-- Ciudad -->
+            <div class="form-group">
+              <input type="text" id="city" name="city" class="form-input" placeholder=" " required>
+              <label for="city" class="form-label">Ciudad / Provincia</label>
+              <span class="form-error-msg">Por favor introduce tu ciudad actual de residencia.</span>
+            </div>
+            
+            <!-- Teléfono de Contacto -->
+            <div class="form-group">
+              <input type="tel" id="phone" name="phone" class="form-input" placeholder=" " required pattern="[0-9]{9}">
+              <label for="phone" class="form-label">Teléfono de Contacto (9 dígitos)</label>
+              <span class="form-error-msg">Ingresa un número telefónico válido de 9 dígitos.</span>
+            </div>
+            
+            <!-- Enlace Video (Opcional - URL) -->
+            <div class="form-group">
+              <input type="url" id="video" name="video" class="form-input" placeholder=" ">
+              <label for="video" class="form-label">Enlace a Video / Highlights (Opcional - URL)</label>
+              <span class="form-error-msg">Ingresa una dirección web válida (ej. YouTube, TikTok).</span>
+            </div>
+            
+            <!-- Zona de Carga de Video (Archivo) -->
+            <div class="form-group">
+              <div class="file-upload-zone" id="file-dropzone">
+                <input type="file" id="video-file" name="video-file" accept="video/*" class="file-input-hidden">
+                <div class="file-upload-content" id="file-upload-content">
+                  <i data-lucide="video" class="upload-icon"></i>
+                  <p class="upload-text">Sube tu video de juego aquí o <span class="upload-link">explora tus archivos</span></p>
+                  <p class="upload-info">Formatos: MP4, MOV (Máx. 50MB)</p>
+                </div>
+                <div class="file-upload-preview" id="file-preview" style="display: none;">
+                  <i data-lucide="film" class="preview-icon"></i>
+                  <span class="preview-name" id="file-name">archivo.mp4</span>
+                  <button type="button" class="btn-remove-file" id="remove-file-btn" aria-label="Eliminar video">
+                    <i data-lucide="x"></i>
+                  </button>
+                </div>
+              </div>
+              <span class="form-error-msg" id="file-error-msg">El archivo debe ser un video y pesar menos de 50MB.</span>
+            </div>
+            
+            <!-- Botón de Envío -->
+            <button type="submit" class="btn btn-primary btn-submit" id="submit-btn">
+              <span>Enviar Postulación</span>
+              <i data-lucide="send"></i>
+            </button>
+          </form>
+          
+          <!-- Pantalla de Éxito Oculta -->
+          <div class="form-success-overlay" id="form-success">
+            <div class="success-icon">
+              <i data-lucide="check-circle2"></i>
+            </div>
+            <h3 class="success-title">¡Registro Completado!</h3>
+            <p class="success-message">
+              Tus datos han sido enviados con éxito a nuestro departamento de reclutamiento. Te contactaremos en las próximas 48 horas al número proporcionado.
+            </p>
+            <div style="margin-bottom: 24px;">
+              <p style="font-size: 0.85rem; color: var(--text-muted);">¿Quieres acelerar tu proceso?</p>
+              <a href="https://wa.me/51999865271?text=Hola,%20acabo%20de%20postular%20en%20el%20sitio%20web%20y%20deseo%20coordinar%20mis%20pruebas" target="_blank" class="btn btn-primary" style="margin-top: 10px;">
+                <i data-lucide="message-square"></i>
+                Escríbenos por WhatsApp
+              </a>
+            </div>
+            <button class="btn btn-secondary" id="reset-form-btn">Enviar otra postulación</button>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       FAQ SECTION
+       ========================================== -->
+  <section id="preguntas" class="faq">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Resuelve tus Dudas</span>
+        <h2 class="section-title">Preguntas Frecuentes</h2>
+      </div>
+      
+      <div class="faq-list">
+        <!-- FAQ 1 -->
+        <div class="faq-item reveal">
+          <button class="faq-question">
+            <span>¿Quiénes pueden postular a las pruebas de selección?</span>
+            <span class="faq-icon-box"><i data-lucide="plus" style="width: 16px; height: 16px;"></i></span>
+          </button>
+          <div class="faq-answer-wrapper">
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                Las pruebas de reclutamiento están abiertas para jóvenes futbolistas (varones y damas) de entre 12 y 25 años de edad con aptitudes deportivas y deseo de proyección profesional.
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- FAQ 2 -->
+        <div class="faq-item reveal">
+          <button class="faq-question">
+            <span>¿Tiene algún costo la evaluación deportiva?</span>
+            <span class="faq-icon-box"><i data-lucide="plus" style="width: 16px; height: 16px;"></i></span>
+          </button>
+          <div class="faq-answer-wrapper">
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                La postulación online inicial y la primera preselección de perfiles es 100% gratuita. Los costes asociados a traslados o etapas específicas presenciales se coordinan de manera transparente con los jugadores preseleccionados.
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- FAQ 3 -->
+        <div class="faq-item reveal">
+          <button class="faq-question">
+            <span>¿Qué ocurre si soy seleccionado en las pruebas?</span>
+            <span class="faq-icon-box"><i data-lucide="plus" style="width: 16px; height: 16px;"></i></span>
+          </button>
+          <div class="faq-answer-wrapper">
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                Los atletas seleccionados acceden a nuestro programa de alto rendimiento, visibilidad directa en partidos amistosos contra clubes de primera y segunda división, y representación formal para colocaciones en planteles profesionales.
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- FAQ 4 -->
+        <div class="faq-item reveal">
+          <button class="faq-question">
+            <span>¿Cómo se realiza el contacto tras la postulación?</span>
+            <span class="faq-icon-box"><i data-lucide="plus" style="width: 16px; height: 16px;"></i></span>
+          </button>
+          <div class="faq-answer-wrapper">
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                Una vez analizados tus datos, el departamento deportivo se comunicará contigo vía WhatsApp o llamada telefónica. También puedes comunicarte directamente al teléfono **999865271** para resolver dudas directas de tu postulación.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       FOOTER
+       ========================================== -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#inicio" class="logo">
+            <div class="logo-icon">B</div>
+            <span>BLUELOOCK <span class="text-gradient">TEST</span></span>
+          </a>
+          <p>Encuentra tu camino al éxito profesional en el fútbol. La élite te espera.</p>
+        </div>
+        
+        <div>
+          <h4 class="footer-title">Enlaces Rápidos</h4>
+          <ul class="footer-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#proceso">El Camino</a></li>
+            <li><a href="#beneficios">Beneficios</a></li>
+            <li><a href="#preguntas">Preguntas Frecuentes</a></li>
+            <li><a href="#postular">Postular Ahora</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h4 class="footer-title">Contacto</h4>
+          <ul class="footer-links" style="margin-bottom: 20px;">
+            <li>
+              <a href="tel:999865271" style="display: flex; align-items: center; gap: 8px;">
+                <i data-lucide="phone" style="width: 16px; height: 16px;"></i>
+                999 865 271
+              </a>
+            </li>
+            <li>
+              <a href="https://wa.me/51999865271" target="_blank" style="display: flex; align-items: center; gap: 8px;">
+                <i data-lucide="message-square" style="width: 16px; height: 16px;"></i>
+                WhatsApp Reclutamiento
+              </a>
+            </li>
+          </ul>
+          <div class="footer-socials">
+            <a href="#" class="social-icon" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+            <a href="#" class="social-icon" aria-label="Facebook"><i data-lucide="facebook"></i></a>
+            <a href="#" class="social-icon" aria-label="Youtube"><i data-lucide="youtube"></i></a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <div class="footer-copy">
+          &copy; 2026 BLUELOOCK TEST FOOTBALL. Todos los derechos reservados.
+        </div>
+        <div class="footer-legal">
+          <a href="#">Términos y Condiciones</a>
+          <a href="#">Privacidad</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Carga de iconos Lucide -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- Lógica e interactividad de la página -->
+  <script src="app.js"></script>
+</body>
+</html>
