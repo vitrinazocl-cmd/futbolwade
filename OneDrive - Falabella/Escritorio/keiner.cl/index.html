@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keiner | Soluciones Empresariales</title>
+    <meta
+      name="description"
+      content="Landing page demo de Keiner. Contenido ficticio para reemplazar por imagenes, videos y textos reales."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-noise" aria-hidden="true"></div>
+
+    <section class="landing-gate" id="landing">
+      <div class="landing-gate__overlay"></div>
+      <div class="landing-gate__content">
+        <a class="btn btn-primary landing-gate__enter" href="#site-content" data-enter-site>Entrar</a>
+        <div class="landing-gate__counter" aria-live="polite">
+          <span>Visitas</span>
+          <strong data-visit-count>000001</strong>
+        </div>
+      </div>
+    </section>
+
+    <header class="site-header" id="site-content">
+      <nav class="nav container">
+        <a class="logo" href="#landing" aria-label="Ir al inicio">
+          <span class="logo-mark">K</span>
+          <span class="logo-text">Keiner</span>
+        </a>
+
+        <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+        </button>
+
+        <ul class="nav-links" data-nav>
+          <li><a href="#landing">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+
+        <div class="nav-right">
+          <a class="btn btn-primary nav-cta" href="#contacto">Solicitar reunion</a>
+          <audio id="bgMusic" class="music-player" autoplay loop preload="auto" controls aria-label="Reproductor de musica">
+            <source src="Energetic%20Pop%20Background%20Music%20For%20Videos%20and%20Presentations.mp3" type="audio/mpeg" />
+          </audio>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container">
+          <div class="ops-slider reveal" aria-label="Carrusel de operaciones empresariales">
+            <div class="ops-slider-head">
+              <h3>Operacion de productos en accion</h3>
+              <div class="ops-slider-controls">
+                <button class="ops-btn" type="button" data-slide-prev aria-label="Ver contenido anterior">←</button>
+                <button class="ops-btn" type="button" data-slide-next aria-label="Ver siguiente contenido">→</button>
+              </div>
+            </div>
+
+            <div class="ops-track" data-ops-track>
+              <article class="ops-item">
+                <img
+                  src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1280&q=80"
+                  alt="Centro logistico con manejo de inventario"
+                  loading="lazy"
+                />
+                <div class="ops-caption">
+                  <strong>Control de inventario</strong>
+                  <span>Equipo operativo en jornada de distribucion.</span>
+                </div>
+              </article>
+
+              <article class="ops-item">
+                <img
+                  src="https://images.unsplash.com/photo-1581093458791-9f3c3900df4b?auto=format&fit=crop&w=1280&q=80"
+                  alt="Linea de produccion con supervision tecnica"
+                  loading="lazy"
+                />
+                <div class="ops-caption">
+                  <strong>Cadena de produccion</strong>
+                  <span>Video demo para reemplazar por material real.</span>
+                </div>
+              </article>
+
+              <article class="ops-item">
+                <img
+                  src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1280&q=80"
+                  alt="Reunion de planificacion comercial"
+                  loading="lazy"
+                />
+                <div class="ops-caption">
+                  <strong>Planificacion comercial</strong>
+                  <span>Comite ejecutivo revisando objetivos trimestrales.</span>
+                </div>
+              </article>
+
+              <article class="ops-item">
+                <img
+                  src="https://images.unsplash.com/photo-1553413077-190dd305871c?auto=format&fit=crop&w=1280&q=80"
+                  alt="Centro logistico con pallets y despacho"
+                  loading="lazy"
+                />
+                <div class="ops-caption">
+                  <strong>Despacho y movimiento</strong>
+                  <span>Flujo logistico en centro de productos.</span>
+                </div>
+              </article>
+
+              <article class="ops-item">
+                <img
+                  src="https://images.unsplash.com/photo-1565514020179-026b92b84bb6?auto=format&fit=crop&w=1280&q=80"
+                  alt="Supervision de calidad en productos"
+                  loading="lazy"
+                />
+                <div class="ops-caption">
+                  <strong>Control de calidad</strong>
+                  <span>Revision de estandares antes de salida.</span>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="hero section">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <span class="tag">Contenido demo listo para personalizar</span>
+            <h1>
+              Transformamos empresas en marcas
+              <em>memorables</em>
+            </h1>
+            <p>
+              Este contenido es ficticio y fue creado para mostrar una landing profesional de alto nivel.
+              Cambia textos, imagenes y videos por tu material real cuando quieras.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#contacto">Quiero cotizar</a>
+              <a class="btn btn-ghost" href="#proyectos">Ver casos demo</a>
+            </div>
+            <ul class="hero-metrics">
+              <li>
+                <strong>+180</strong>
+                <span>Proyectos ejecutados</span>
+              </li>
+              <li>
+                <strong>98%</strong>
+                <span>Clientes recurrentes</span>
+              </li>
+              <li>
+                <strong>24/7</strong>
+                <span>Soporte operativo</span>
+              </li>
+            </ul>
+          </div>
+
+          <aside class="hero-card reveal-delay" aria-label="Panel de resultados">
+            <p class="hero-card-title">Resumen ejecutivo</p>
+            <h2>Plan Keiner Growth</h2>
+            <p>
+              Estrategia integral para empresas que quieren crecer con foco comercial, tecnologia y experiencia de cliente.
+            </p>
+            <div class="hero-checks">
+              <span>Roadmap de 90 dias</span>
+              <span>Automatizacion comercial</span>
+              <span>Dashboard de indicadores</span>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section" id="menu">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="section-kicker">Seccion de menu</span>
+            <h2>Explora las areas principales</h2>
+          </div>
+          <div class="menu-grid">
+            <a class="menu-item reveal" href="#servicios">
+              <h3>Consultoria empresarial</h3>
+              <p>Diagnostico integral, estrategia y acompanamiento ejecutivo.</p>
+            </a>
+            <a class="menu-item reveal" href="#proyectos">
+              <h3>Implementacion digital</h3>
+              <p>Web, automatizaciones, CRM y optimizacion de procesos.</p>
+            </a>
+            <a class="menu-item reveal" href="#nosotros">
+              <h3>Quienes somos</h3>
+              <p>Equipo ficticio con enfoque senior y orientacion a resultados.</p>
+            </a>
+            <a class="menu-item reveal" href="#contacto">
+              <h3>Agenda una reunion</h3>
+              <p>Coordinemos una llamada de 20 minutos para evaluar objetivos.</p>
+            </a>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="section split" id="nosotros">
+        <div class="container split-grid">
+          <div class="media-block reveal">
+            <div class="fake-video">
+              <p>Video institucional demo</p>
+              <small>Reemplazar por video real de marca</small>
+            </div>
+          </div>
+          <div class="copy-block reveal-delay">
+            <span class="section-kicker">Nosotros</span>
+            <h2>Una empresa formal con ADN de crecimiento</h2>
+            <p>
+              Keiner nace como una firma de servicios empresariales enfocada en orden, rentabilidad y posicionamiento.
+              Esta narrativa es referencial para que luego la ajustes a tu historia real.
+            </p>
+            <ul class="bullets">
+              <li>Metodologia clara y entregables medibles.</li>
+              <li>Procesos transparentes con seguimiento semanal.</li>
+              <li>Equipo multidisciplinario con liderazgo ejecutivo.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="servicios">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="section-kicker">Servicios</span>
+            <h2>Portafolio ficticio para mostrar alto valor</h2>
+          </div>
+          <div class="cards-3">
+            <article class="service-card reveal">
+              <h3>Direccion comercial externa</h3>
+              <p>
+                Definimos metas, estructura de ventas y ciclo comercial completo para equipos en expansion.
+              </p>
+            </article>
+            <article class="service-card reveal">
+              <h3>Branding y posicionamiento</h3>
+              <p>
+                Construimos una identidad coherente para que tu marca compita con presencia premium.
+              </p>
+            </article>
+            <article class="service-card reveal">
+              <h3>Operacion y mejora continua</h3>
+              <p>
+                Auditamos procesos y levantamos oportunidades para escalar con eficiencia.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="proyectos">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="section-kicker">Casos demo</span>
+            <h2>Resultados de referencia</h2>
+          </div>
+          <div class="project-grid">
+            <article class="project reveal">
+              <h3>Proyecto Atlas</h3>
+              <p>Empresa de distribucion: aumento de ventas del 42% en 6 meses.</p>
+            </article>
+            <article class="project reveal">
+              <h3>Proyecto Nova</h3>
+              <p>Optimiazcion operativa: reduccion de costos del 28% en 90 dias.</p>
+            </article>
+            <article class="project reveal">
+              <h3>Proyecto Faro</h3>
+              <p>Rebranding completo: crecimiento de conversiones en 2.4x.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section cta" id="contacto">
+        <div class="container cta-inner reveal">
+          <div class="contact-copy">
+            <span class="section-kicker">Contacto</span>
+            <h2>Contactemonos, y descubre como podemos ayudarte</h2>
+            <p>Si lo prefieres, puedes contactarnos directamente en:</p>
+            <ul class="contact-details">
+              <li>
+                Correo:
+                <a href="mailto:contacto@keiner.cl?subject=Contacto%20Website">contacto@keiner.cl</a>
+              </li>
+              <li>
+                Telefono / WhatsApp:
+                <a href="tel:+56994541992">+569 9454 1992</a>
+              </li>
+            </ul>
+          </div>
+          <div class="contact-actions">
+            <a class="btn btn-primary" href="mailto:contacto@keiner.cl?subject=Contacto%20Website">Escribir correo</a>
+            <a class="btn btn-ghost" href="tel:+56994541992">Llamar ahora</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>Keiner 2026. Landing demo con contenido ficticio.</p>
+        <a href="#landing">Volver arriba</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
