@@ -3551,6 +3551,11 @@ const DOM = {
     drawerNavAdmin: document.getElementById('drawerNavAdmin'),
     drawerCategoriesBtn: document.getElementById('drawerCategoriesBtn'),
     drawerCategoriesContent: document.getElementById('drawerCategoriesContent'),
+    drawerPdfBtn: document.getElementById('drawerPdfBtn'),
+    drawerPdfContent: document.getElementById('drawerPdfContent'),
+    modalPdfCatalogs: document.getElementById('modalPdfCatalogs'),
+    btnHeroPdfCatalogs: document.getElementById('btnHeroPdfCatalogs'),
+    footerLinkPdfCatalogs: document.getElementById('footerLinkPdfCatalogs'),
     mobileAdminOrdersLink: document.getElementById('mobileAdminOrdersLink'),
     mobileAdminSalesLink: document.getElementById('mobileAdminSalesLink'),
     mobileAdminConsolidatedLink: document.getElementById('mobileAdminConsolidatedLink'),
@@ -3780,6 +3785,21 @@ function setupEventListeners() {
             }
         });
     }
+
+    // Mobile drawer PDF dropdown toggle
+    if (DOM.drawerPdfBtn && DOM.drawerPdfContent) {
+        DOM.drawerPdfBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            const chevron = DOM.drawerPdfBtn.querySelector('.dropdown-chevron');
+            if (DOM.drawerPdfContent.style.display === 'none' || !DOM.drawerPdfContent.style.display) {
+                DOM.drawerPdfContent.style.display = 'flex';
+                if (chevron) chevron.style.transform = 'rotate(180deg)';
+            } else {
+                DOM.drawerPdfContent.style.display = 'none';
+                if (chevron) chevron.style.transform = 'rotate(0deg)';
+            }
+        });
+    }
     
     DOM.cartTriggerBtn.addEventListener('click', openCartDrawer);
     DOM.cartDrawerCloseBtn.addEventListener('click', closeCartDrawer);
@@ -3859,6 +3879,20 @@ function setupEventListeners() {
         closeMobileDrawer();
         openModal(DOM.modalHowToBuy);
     });
+
+    // PDF Modal triggers
+    document.querySelectorAll('.btn-pdf-modal-trigger').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.preventDefault();
+            openModal(DOM.modalPdfCatalogs);
+        });
+    });
+    if (DOM.footerLinkPdfCatalogs) {
+        DOM.footerLinkPdfCatalogs.addEventListener('click', (e) => {
+            e.preventDefault();
+            openModal(DOM.modalPdfCatalogs);
+        });
+    }
 
     // Modal Close
     document.querySelectorAll('.modal-close-btn, .modal-close-action').forEach(btn => {
@@ -5161,7 +5195,7 @@ async function submitCheckout() {
         return;
     }
 
-    // Validate Commune Restriction for Despacho a Domicilio
+    // Validate Commune Restriction & Minimum Order for Despacho a Domicilio
     if (methodVal === 'domicilio') {
         if (!communeVal) {
             alert("Por favor, selecciona tu comuna de despacho.");
@@ -5169,6 +5203,21 @@ async function submitCheckout() {
         }
         if (!SERVICED_COMMUNES.includes(communeVal)) {
             alert("🚫 Lo sentimos. Nuestra red logística a domicilio actualmente abarca las comunas de Estación Central, Maipú, Santiago, Recoleta, Providencia, Las Condes, Vitacura, La Reina, Conchalí, San Miguel, Lo Barnechea y Huechuraba. Para continuar con tu compra, puedes seleccionar una comuna dentro de la zona de cobertura o cambiar el método a 'Retiro en Sala de Ventas Recoleta (Gratis)'.");
+            return;
+        }
+
+        // Validate Minimum Purchase ($60.000)
+        let currentSubtotal = 0;
+        STATE.cart.forEach(item => {
+            const product = PRODUCTS.find(p => p.id === item.productId);
+            if (product) {
+                let unitActivePrice = getUnitPriceByQty(product, item.quantity);
+                currentSubtotal += (unitActivePrice * item.quantity);
+            }
+        });
+
+        if (currentSubtotal < 60000) {
+            alert(`🛒 La compra mínima para Despacho a Domicilio es de $60.000 (tu subtotal actual es de $${formatNumber(currentSubtotal)}).\n\nPuedes cambiar el método a 'Retiro en Sala de Ventas Recoleta (Gratis)' o agregar más productos a tu carro de compras.`);
             return;
         }
     }

@@ -91,12 +91,34 @@
                 <a href="#" class="nav-link" id="navLinkOffers" data-view="offers">OFERTAS</a>
                 <a href="#" class="nav-link" id="navLinkNew" data-view="new">NUEVOS PRODUCTOS</a>
                 <a href="#" class="nav-link" id="navLinkHowToBuy">¿CÓMO COMPRAR?</a>
-                <a href="catalogo ahorraya.pdf" class="nav-link" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 5px;">
-                    <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
-                        <path d="M19 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3M19 19H5V5H19V19M11.5 12H8.5V11H10.5V10H8.5V7.5H11.5V12M15.5 10H14.5V11H15.5C16 11 16.5 10.5 16.5 10V7.5C16.5 7 16 6.5 15.5 6.5H13.5V12.5H15.5V10M7 6.5H9.5C10 6.5 10.5 7 10.5 7.5V12.5H7V6.5Z"/>
-                    </svg>
-                    CATÁLOGO PDF
-                </a>
+                <div class="nav-dropdown" id="navPdfDropdown">
+                    <button class="nav-dropdown-btn" id="btnPdfDropdown">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" style="margin-right: 5px;">
+                            <path d="M19 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3M19 19H5V5H19V19M11.5 12H8.5V11H10.5V10H8.5V7.5H11.5V12M15.5 10H14.5V11H15.5C16 11 16.5 10.5 16.5 10V7.5C16.5 7 16 6.5 15.5 6.5H13.5V12.5H15.5V10M7 6.5H9.5C10 6.5 10.5 7 10.5 7.5V12.5H7V6.5Z"/>
+                        </svg>
+                        CATÁLOGOS PDF
+                        <svg viewBox="0 0 24 24" width="16" height="16" class="dropdown-chevron">
+                            <path fill="currentColor" d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
+                        </svg>
+                    </button>
+                    <div class="dropdown-content pdf-dropdown-menu" id="pdfDropdownContent">
+                        <div class="pdf-dropdown-item">
+                            <div class="pdf-item-title">📕 Catálogo AhorraYa</div>
+                            <div class="pdf-item-actions">
+                                <a href="catalogo%20ahorraya.pdf" target="_blank" rel="noopener noreferrer" class="btn-pdf-action btn-pdf-view">👁️ Ver</a>
+                                <a href="catalogo%20ahorraya.pdf" download="catalogo ahorraya.pdf" class="btn-pdf-action btn-pdf-download">📥 Descargar</a>
+                            </div>
+                        </div>
+                        <div class="pdf-dropdown-divider"></div>
+                        <div class="pdf-dropdown-item">
+                            <div class="pdf-item-title">📄 Productos VF</div>
+                            <div class="pdf-item-actions">
+                                <a href="Productos%20VF%20(pdf).pdf" target="_blank" rel="noopener noreferrer" class="btn-pdf-action btn-pdf-view">👁️ Ver</a>
+                                <a href="Productos%20VF%20(pdf).pdf" download="Productos VF (pdf).pdf" class="btn-pdf-action btn-pdf-download">📥 Descargar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <!-- DYNAMIC EXECUTIVE ADMIN HEADER MENU -->
@@ -146,9 +168,30 @@
             <a href="#" class="drawer-item" id="mobileOffersLink">OFERTAS</a>
             <a href="#" class="drawer-item" id="mobileNewLink">NUEVOS PRODUCTOS</a>
             <a href="#" class="drawer-item" id="mobileHowToBuyLink">¿CÓMO COMPRAR?</a>
-            <a href="catalogo ahorraya.pdf" class="drawer-item" target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; gap: 8px;">
-                📕 CATÁLOGO PDF
-            </a>
+            <div class="drawer-dropdown">
+                <button class="drawer-dropdown-btn" id="drawerPdfBtn">
+                    📕 CATÁLOGOS PDF
+                    <svg viewBox="0 0 24 24" width="16" height="16" class="dropdown-chevron">
+                        <path fill="currentColor" d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
+                    </svg>
+                </button>
+                <div class="drawer-dropdown-content" id="drawerPdfContent" style="display: none; flex-direction: column;">
+                    <div class="drawer-pdf-group">
+                        <span class="drawer-pdf-title">📕 Catálogo AhorraYa</span>
+                        <div class="drawer-pdf-actions">
+                            <a href="catalogo%20ahorraya.pdf" target="_blank" rel="noopener noreferrer" class="btn-drawer-pdf">👁️ Ver</a>
+                            <a href="catalogo%20ahorraya.pdf" download="catalogo ahorraya.pdf" class="btn-drawer-pdf btn-drawer-pdf-download">📥 Descargar</a>
+                        </div>
+                    </div>
+                    <div class="drawer-pdf-group" style="margin-top: 10px;">
+                        <span class="drawer-pdf-title">📄 Productos VF</span>
+                        <div class="drawer-pdf-actions">
+                            <a href="Productos%20VF%20(pdf).pdf" target="_blank" rel="noopener noreferrer" class="btn-drawer-pdf">👁️ Ver</a>
+                            <a href="Productos%20VF%20(pdf).pdf" download="Productos VF (pdf).pdf" class="btn-drawer-pdf btn-drawer-pdf-download">📥 Descargar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </nav>
 
         <!-- Admin Executive Drawer Items (Hidden by default) -->
@@ -191,12 +234,12 @@
                             <p>Abastece tu negocio con la mayor tecnología y transparencia. Descuentos por caja y palet en tiempo real.</p>
                             <div class="hero-actions" style="display: flex; gap: 10px; justify-content: center; margin-top: 15px; flex-wrap: wrap;">
                                 <button class="btn btn-primary view-products-btn" data-category="all" style="margin: 0;">Ver Catálogo</button>
-                                <a href="catalogo ahorraya.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer" style="margin: 0; background-color: transparent; border: 2px solid white; color: white; display: inline-flex; align-items: center; gap: 8px;">
+                                <button class="btn btn-secondary btn-pdf-modal-trigger" id="btnHeroPdfCatalogs" style="margin: 0; background-color: transparent; border: 2px solid white; color: white; display: inline-flex; align-items: center; gap: 8px;">
                                     <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
-                                        <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"/>
+                                        <path d="M19 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3M19 19H5V5H19V19M11.5 12H8.5V11H10.5V10H8.5V7.5H11.5V12M15.5 10H14.5V11H15.5C16 11 16.5 10.5 16.5 10V7.5C16.5 7 16 6.5 15.5 6.5H13.5V12.5H15.5V10M7 6.5H9.5C10 6.5 10.5 7 10.5 7.5V12.5H7V6.5Z"/>
                                     </svg>
-                                    Descargar Catálogo PDF
-                                </a>
+                                    Catálogos PDF
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -204,8 +247,8 @@
                     <div class="carousel-slide">
                         <img src="banner2.jpg" alt="Logística rápida para tu negocio" class="carousel-img" loading="lazy">
                         <div class="carousel-caption">
-                            <h2>DESPACHO A TODA LA REGIÓN</h2>
-                            <p>Envíos express en 24/48 horas directamente a tu almacén o domicilio.</p>
+                            <h2>DESPACHOS Y RETIRO EN TIENDA</h2>
+                            <p>Envíos en 48 a 72 horas a comunas seleccionadas de Santiago y retiro en tienda en 24 horas.</p>
                             <button class="btn btn-secondary" id="infoDespachoBtn">Más Información</button>
                         </div>
                     </div>
@@ -898,6 +941,7 @@
                 <h3>Nosotros</h3>
                 <ul>
                     <li><a href="#" class="btn-how-to-buy-trigger">¿Cómo comprar?</a></li>
+                    <li><a href="#" id="footerLinkPdfCatalogs">📕 Catálogos PDF</a></li>
                     <li><a href="#" id="footerLinkPayments">Medios de Pago</a></li>
                     <li><a href="#" id="footerLinkDelivery">Zonas de Despacho</a></li>
                     <li><a href="#" id="footerLinkAdmin">Acceso Ejecutivo (Admin)</a></li>
@@ -1042,35 +1086,68 @@
 
     <!-- Modal 3: Despachos y Logística -->
     <div class="modal-overlay" id="modalDelivery">
-        <div class="modal-card">
+        <div class="modal-card" style="max-width: 680px;">
             <div class="modal-header">
                 <h3>Zonas y Condiciones de Despacho</h3>
                 <button class="modal-close-btn">&times;</button>
             </div>
             <div class="modal-body">
-                <p>Nuestra red logística está optimizada para el movimiento de abarrotes en las 12 comunas habilitadas de Santiago (<strong>Estación Central, Maipú, Santiago, Recoleta, Providencia, Las Condes, Vitacura, La Reina, Conchalí, San Miguel, Lo Barnechea y Huechuraba</strong>):</p>
+                <p style="font-size: 0.92rem; line-height: 1.5; margin-bottom: 15px; color: var(--color-text-dark);">
+                    En esta primera etapa solo cubrimos algunas comunas de Santiago, las cuales se describen abajo e iremos avisando en la medida que se incorporen nuevas zonas. Para retiro en tienda puedes solicitar pedidos desde cualquier comuna.
+                </p>
+
                 <table class="delivery-table">
                     <thead>
                         <tr>
                             <th>Zona</th>
                             <th>Tiempo de Entrega</th>
-                            <th>Costo</th>
+                            <th>Costo y Condiciones</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Comunas Habilitadas de Santiago</td>
-                            <td>24 - 48 Horas Hábiles</td>
-                            <td>Gratis > $100.000 / $3.990 menor valor</td>
+                            <td style="vertical-align: top;">
+                                <strong>Despacho a Domicilio</strong><br>
+                                <span style="font-size: 0.8rem; font-weight: 700; color: var(--color-primary-light);">Comunas Habilitadas:</span><br>
+                                <span style="font-size: 0.82rem; color: var(--color-text-dark); line-height: 1.4; display: block; margin-top: 2px;">
+                                    Estación Central, Maipú, Santiago, Recoleta, Providencia, Las Condes, Vitacura, La Reina, Conchalí, San Miguel, Lo Barnechea, Huechuraba
+                                </span>
+                            </td>
+                            <td style="vertical-align: top; font-size: 0.88rem; color: var(--color-text-dark);">
+                                ⏱️ <strong>48 a 72 hrs</strong><br>
+                                <small style="color: var(--color-text-muted);">De lunes a sábado</small>
+                            </td>
+                            <td style="vertical-align: top; font-size: 0.85rem;">
+                                <ul style="margin: 0; padding-left: 16px; line-height: 1.5; color: var(--color-text-dark);">
+                                    <li><strong>Compra mínima:</strong> $60.000</li>
+                                    <li><strong>Despacho gratis:</strong> sobre $100.000</li>
+                                    <li><strong>Delivery compras menores:</strong> $3.990</li>
+                                </ul>
+                            </td>
                         </tr>
                         <tr>
-                            <td>Retiro en Sala de Ventas (Recoleta)</td>
-                            <td>Mismo día (Listo en 2 horas)</td>
-                            <td>Siempre Gratis</td>
+                            <td style="vertical-align: top;">
+                                <strong>Retiro en Sala de Ventas (Recoleta)</strong><br>
+                                <small style="font-size: 0.8rem; color: var(--color-text-muted);">Disponible para pedidos desde cualquier comuna</small>
+                            </td>
+                            <td style="vertical-align: top; font-size: 0.88rem; color: var(--color-text-dark);">
+                                🏬 <strong>En 24 hrs</strong><br>
+                                <small style="color: var(--color-text-muted);">De lunes a viernes<br>10:00 a 17:00 hrs</small>
+                            </td>
+                            <td style="vertical-align: top; font-size: 0.88rem; color: var(--color-success); font-weight: 700;">
+                                🎉 Siempre gratis
+                            </td>
                         </tr>
                     </tbody>
                 </table>
-                <div class="modal-alert-box warning-alert">
+
+                <!-- Information box regarding physical store vs web orders -->
+                <div style="background-color: #eff6ff; border: 1px solid #93c5fd; border-radius: var(--border-radius-sm); padding: 14px 16px; margin: 15px 0; font-size: 0.85rem; color: #1e3a8a; line-height: 1.5;">
+                    📍 <strong>Información Importante sobre la Sala de Ventas:</strong><br>
+                    La información de la tienda física es únicamente de referencia y para agendar/coordinar el retiro de pedidos realizados en la página web. En la sala de ventas física presencial los precios son unitarios y únicos de sala. Todas las entregas de compras realizadas a través de la página web se entregan por despacho de transporte o retiro en tienda con previa coordinación.
+                </div>
+
+                <div class="modal-alert-box warning-alert" style="font-size: 0.84rem;">
                     ⚠️ <strong>Información importante:</strong> Los despachos de pallets requieren que la zona de descarga cuente con accesibilidad para camiones planos y transpaleta.
                 </div>
             </div>
@@ -1159,8 +1236,8 @@
                         <div class="form-group full-width">
                             <label for="checkMethod">Método de Despacho *</label>
                             <select id="checkMethod" required>
-                                <option value="domicilio">Despacho a Domicilio ($3.990 / Gratis sobre $100.000)</option>
-                                <option value="retiro">Retiro en Sala de Ventas Recoleta (Gratis)</option>
+                                <option value="domicilio">Despacho a Domicilio (Mínimo $60.000 | $3.990 / Gratis sobre $100.000)</option>
+                                <option value="retiro">Retiro en Sala de Ventas Recoleta (Gratis - Sin Mínimo)</option>
                             </select>
                         </div>
                         <div class="form-group full-width" id="checkCommuneGroup">
@@ -1398,6 +1475,56 @@
                 <div class="product-detail-layout" id="modalProductDetailContent">
                     <!-- Populated dynamically by JS -->
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 10: PDF Catalogs Selection -->
+    <div class="modal-overlay" id="modalPdfCatalogs">
+        <div class="modal-card" style="max-width: 500px;">
+            <div class="modal-header">
+                <h3>📄 Catálogos en PDF</h3>
+                <button class="modal-close-btn" id="btnClosePdfModal">&times;</button>
+            </div>
+            <div class="modal-body" style="padding: 20px;">
+                <p style="font-size: 0.9rem; color: var(--color-text-muted); margin-bottom: 20px;">
+                    Selecciona el catálogo que deseas visualizar en línea o descargar a tu dispositivo:
+                </p>
+                
+                <!-- Catalog 1: Catálogo AhorraYa -->
+                <div style="background: var(--color-bg-light); border: 1px solid var(--color-border); border-radius: var(--border-radius); padding: 16px; margin-bottom: 15px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px;">
+                    <div>
+                        <strong style="display: block; font-size: 1rem; color: var(--color-primary-dark); font-family: Montserrat;">📕 Catálogo AhorraYa</strong>
+                        <span style="font-size: 0.8rem; color: var(--color-text-muted);">Catálogo General de Productos (PDF)</span>
+                    </div>
+                    <div style="display: flex; gap: 8px;">
+                        <a href="catalogo%20ahorraya.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline-sm" style="padding: 8px 14px; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 5px;">
+                            👁️ Ver
+                        </a>
+                        <a href="catalogo%20ahorraya.pdf" download="catalogo ahorraya.pdf" class="btn btn-primary btn-outline-sm" style="padding: 8px 14px; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 5px; background-color: var(--color-primary); color: white;">
+                            📥 Descargar
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Catalog 2: Productos VF -->
+                <div style="background: var(--color-bg-light); border: 1px solid var(--color-border); border-radius: var(--border-radius); padding: 16px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px;">
+                    <div>
+                        <strong style="display: block; font-size: 1rem; color: var(--color-primary-dark); font-family: Montserrat;">📄 Productos VF</strong>
+                        <span style="font-size: 0.8rem; color: var(--color-text-muted);">Catálogo Productos VF (PDF)</span>
+                    </div>
+                    <div style="display: flex; gap: 8px;">
+                        <a href="Productos%20VF%20(pdf).pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline-sm" style="padding: 8px 14px; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 5px;">
+                            👁️ Ver
+                        </a>
+                        <a href="Productos%20VF%20(pdf).pdf" download="Productos VF (pdf).pdf" class="btn btn-primary btn-outline-sm" style="padding: 8px 14px; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 5px; background-color: var(--color-primary); color: white;">
+                            📥 Descargar
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer" style="justify-content: flex-end;">
+                <button class="btn btn-secondary modal-close-action">Cerrar</button>
             </div>
         </div>
     </div>
