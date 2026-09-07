@@ -177,7 +177,7 @@ const PRODUCTS = [
         "id": "p7",
         "brand": "San José",
         "name": "Atun lomito 140g San josé en aceite",
-        "category": "abarrotes",
+        "category": "conservas",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -199,7 +199,7 @@ const PRODUCTS = [
         "id": "p8",
         "brand": "San José",
         "name": "Atun lomito 140g San josé en agua",
-        "category": "abarrotes",
+        "category": "conservas",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -221,7 +221,7 @@ const PRODUCTS = [
         "id": "p9",
         "brand": "San José",
         "name": "Lomito de jurel 160g San José en aceite",
-        "category": "abarrotes",
+        "category": "conservas",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -507,7 +507,7 @@ const PRODUCTS = [
         "id": "p22",
         "brand": "Carozzi",
         "name": "Salsa Carozzi Italiana 200g",
-        "category": "abarrotes",
+        "category": "conservas",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -529,7 +529,7 @@ const PRODUCTS = [
         "id": "p23",
         "brand": "San Remo",
         "name": "Salsa San Remo 200g",
-        "category": "abarrotes",
+        "category": "conservas",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -551,7 +551,7 @@ const PRODUCTS = [
         "id": "p24",
         "brand": "Teodoro",
         "name": "Salsa Teodoro Italiana 200g",
-        "category": "abarrotes",
+        "category": "conservas",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -771,7 +771,7 @@ const PRODUCTS = [
         "id": "p34",
         "brand": "KRAF",
         "name": "Ketchup Kraf 850g",
-        "category": "abarrotes",
+        "category": "conservas",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -793,7 +793,7 @@ const PRODUCTS = [
         "id": "p35",
         "brand": "Hellmans",
         "name": "Mayonesa Hellmans 630 g",
-        "category": "abarrotes",
+        "category": "conservas",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -815,7 +815,7 @@ const PRODUCTS = [
         "id": "p36",
         "brand": "Heinz",
         "name": "Mostaza Heinz 1k",
-        "category": "abarrotes",
+        "category": "conservas",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -969,7 +969,7 @@ const PRODUCTS = [
         "id": "p43",
         "brand": "Nestle",
         "name": "Manjar Nestle 1k",
-        "category": "abarrotes",
+        "category": "lacteos",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -1167,7 +1167,7 @@ const PRODUCTS = [
         "id": "p52",
         "brand": "Minuto Verde",
         "name": "Papas pre fritas 7x7m 2,5k Minuto Verde",
-        "category": "bebidas",
+        "category": "congelados",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -1189,7 +1189,7 @@ const PRODUCTS = [
         "id": "p53",
         "brand": "Minuto Verde",
         "name": "Papas Duquesa 500g Minuto Verde",
-        "category": "bebidas",
+        "category": "congelados",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -1299,7 +1299,7 @@ const PRODUCTS = [
         "id": "p58",
         "brand": "Molinos Cañuelas",
         "name": "Muffin relleno ddl x6",
-        "category": "confiteria",
+        "category": "abarrotes",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -1321,7 +1321,7 @@ const PRODUCTS = [
         "id": "p59",
         "brand": "Molinos Cañuelas",
         "name": "Muffin Vainilla con Chips chocolate x6",
-        "category": "confiteria",
+        "category": "abarrotes",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -1343,7 +1343,7 @@ const PRODUCTS = [
         "id": "p60",
         "brand": "Molinos Cañuelas",
         "name": "Muffin Chocolate con Chips de Chocolate x6",
-        "category": "confiteria",
+        "category": "abarrotes",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -1541,7 +1541,7 @@ const PRODUCTS = [
         "id": "p69",
         "brand": "3 Arroyos",
         "name": "Areja lata 350g  3 Arroyos",
-        "category": "abarrotes",
+        "category": "conservas",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -1563,7 +1563,7 @@ const PRODUCTS = [
         "id": "p70",
         "brand": "3 Arroyos",
         "name": "Lenteja en lata 350g 3 arroyos",
-        "category": "abarrotes",
+        "category": "conservas",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -1585,7 +1585,7 @@ const PRODUCTS = [
         "id": "p71",
         "brand": "3 Arroyos",
         "name": "Garbanzo lata 350g 3 arroyos",
-        "category": "abarrotes",
+        "category": "conservas",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -1607,7 +1607,7 @@ const PRODUCTS = [
         "id": "p72",
         "brand": "3 Arroyos",
         "name": "Choclo en grano  lata 350g 3 Arroyos",
-        "category": "abarrotes",
+        "category": "conservas",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -1629,7 +1629,7 @@ const PRODUCTS = [
         "id": "p73",
         "brand": "Gentil",
         "name": "Palimitos en Rodajas Gentil 400g",
-        "category": "abarrotes",
+        "category": "conservas",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -1651,7 +1651,7 @@ const PRODUCTS = [
         "id": "p74",
         "brand": "Gentil",
         "name": "Palimitos en Enteros  Gentil 400g",
-        "category": "abarrotes",
+        "category": "conservas",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -1673,7 +1673,7 @@ const PRODUCTS = [
         "id": "p75",
         "brand": "Gentil",
         "name": "Choclito Coktail 425g Gentil",
-        "category": "abarrotes",
+        "category": "conservas",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -1695,7 +1695,7 @@ const PRODUCTS = [
         "id": "p76",
         "brand": "Gentil",
         "name": "Durazno en cubitos 3k Gentil",
-        "category": "abarrotes",
+        "category": "conservas",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -1717,7 +1717,7 @@ const PRODUCTS = [
         "id": "p77",
         "brand": "Gentil",
         "name": "Durazno en Mitades 3k Gentil",
-        "category": "abarrotes",
+        "category": "conservas",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -1739,7 +1739,7 @@ const PRODUCTS = [
         "id": "p78",
         "brand": "Gentil",
         "name": "Piña en Rodaja 3k Gentil",
-        "category": "abarrotes",
+        "category": "conservas",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -1761,7 +1761,7 @@ const PRODUCTS = [
         "id": "p79",
         "brand": "Gentil",
         "name": "Piña en Trozos 3k Gentil",
-        "category": "abarrotes",
+        "category": "conservas",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -1783,7 +1783,7 @@ const PRODUCTS = [
         "id": "p80",
         "brand": "Costa",
         "name": "Mini Cocaditas  Costa 35g",
-        "category": "confiteria",
+        "category": "abarrotes",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -1827,7 +1827,7 @@ const PRODUCTS = [
         "id": "p82",
         "brand": "Costa",
         "name": "Mini Chips Costa 35",
-        "category": "confiteria",
+        "category": "abarrotes",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -1849,7 +1849,7 @@ const PRODUCTS = [
         "id": "p83",
         "brand": "Costa",
         "name": "Mini Brownie Chips Costa35g",
-        "category": "confiteria",
+        "category": "abarrotes",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -1871,7 +1871,7 @@ const PRODUCTS = [
         "id": "p84",
         "brand": "Costa",
         "name": "Cereal Bar Chocolate Costa x20",
-        "category": "confiteria",
+        "category": "abarrotes",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -1893,7 +1893,7 @@ const PRODUCTS = [
         "id": "p85",
         "brand": "Costa",
         "name": "Mini Vino Costa 35g",
-        "category": "confiteria",
+        "category": "abarrotes",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -1915,7 +1915,7 @@ const PRODUCTS = [
         "id": "p86",
         "brand": "Costa",
         "name": "Mini Dulcitas Costa 35g",
-        "category": "confiteria",
+        "category": "abarrotes",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -1937,7 +1937,7 @@ const PRODUCTS = [
         "id": "p87",
         "brand": "Almadre",
         "name": "Pita Chips Original 115g",
-        "category": "licores",
+        "category": "abarrotes",
         "type": "Otros",
         "availability": "stock",
         "clientTypes": [
@@ -2223,7 +2223,7 @@ const PRODUCTS = [
         "id": "p100",
         "brand": "Swan",
         "name": "Servilleta Swan x300un",
-        "category": "aseo",
+        "category": "limpieza",
         "type": "Hogar",
         "availability": "stock",
         "clientTypes": [
@@ -2245,7 +2245,7 @@ const PRODUCTS = [
         "id": "p101",
         "brand": "Swan",
         "name": "Confort 50mt x 4 Swan",
-        "category": "aseo",
+        "category": "limpieza",
         "type": "Hogar",
         "availability": "stock",
         "clientTypes": [
@@ -2267,7 +2267,7 @@ const PRODUCTS = [
         "id": "p102",
         "brand": "Swan",
         "name": "Toalla de papel Swan 70 m",
-        "category": "bebidas",
+        "category": "limpieza",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -2289,7 +2289,7 @@ const PRODUCTS = [
         "id": "p103",
         "brand": "Keiner",
         "name": "Bolsa de basura 10 und  50x70",
-        "category": "aseo",
+        "category": "limpieza",
         "type": "Hogar",
         "availability": "stock",
         "clientTypes": [
@@ -2311,7 +2311,7 @@ const PRODUCTS = [
         "id": "p104",
         "brand": "Keiner",
         "name": "Bolsa de basura 10 und  70x90",
-        "category": "aseo",
+        "category": "limpieza",
         "type": "Hogar",
         "availability": "stock",
         "clientTypes": [
@@ -2333,7 +2333,7 @@ const PRODUCTS = [
         "id": "p105",
         "brand": "Keiner",
         "name": "Bolsa de basura 10 und  80x110",
-        "category": "aseo",
+        "category": "limpieza",
         "type": "Hogar",
         "availability": "stock",
         "clientTypes": [
@@ -2355,7 +2355,7 @@ const PRODUCTS = [
         "id": "p106",
         "brand": "Keiner",
         "name": "Trapero de algodón 50x70",
-        "category": "aseo",
+        "category": "limpieza",
         "type": "Hogar",
         "availability": "stock",
         "clientTypes": [
@@ -2377,7 +2377,7 @@ const PRODUCTS = [
         "id": "p107",
         "brand": "Keiner",
         "name": "Paño microfibra 38x38 cm",
-        "category": "aseo",
+        "category": "limpieza",
         "type": "Hogar",
         "availability": "stock",
         "clientTypes": [
@@ -2399,7 +2399,7 @@ const PRODUCTS = [
         "id": "p108",
         "brand": "Keiner",
         "name": "Paños de esponja x 3",
-        "category": "aseo",
+        "category": "limpieza",
         "type": "Hogar",
         "availability": "stock",
         "clientTypes": [
@@ -2421,7 +2421,7 @@ const PRODUCTS = [
         "id": "p109",
         "brand": "Keiner",
         "name": "Trapero de Microfibra",
-        "category": "aseo",
+        "category": "limpieza",
         "type": "Hogar",
         "availability": "stock",
         "clientTypes": [
@@ -2443,7 +2443,7 @@ const PRODUCTS = [
         "id": "p110",
         "brand": "Keiner",
         "name": "Paño de sacudir amarillo 35x40 cm",
-        "category": "aseo",
+        "category": "limpieza",
         "type": "Hogar",
         "availability": "stock",
         "clientTypes": [
@@ -2465,7 +2465,7 @@ const PRODUCTS = [
         "id": "p111",
         "brand": "Keiner",
         "name": "Trapero humedo x 12",
-        "category": "aseo",
+        "category": "limpieza",
         "type": "Hogar",
         "availability": "stock",
         "clientTypes": [
@@ -2487,7 +2487,7 @@ const PRODUCTS = [
         "id": "p112",
         "brand": "Keiner",
         "name": "Detergente Ariel 1,8l",
-        "category": "aseo",
+        "category": "limpieza",
         "type": "Hogar",
         "availability": "stock",
         "clientTypes": [
@@ -2509,7 +2509,7 @@ const PRODUCTS = [
         "id": "p113",
         "brand": "Big Cola",
         "name": "Big Cola 1,7lt",
-        "category": "bebidas",
+        "category": "liquidos",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -2531,7 +2531,7 @@ const PRODUCTS = [
         "id": "p114",
         "brand": "Big Cola",
         "name": "Big Cola Zero 1,7lt",
-        "category": "bebidas",
+        "category": "liquidos",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -2553,7 +2553,7 @@ const PRODUCTS = [
         "id": "p115",
         "brand": "Big Cola",
         "name": "Big Cola 3,03lt",
-        "category": "bebidas",
+        "category": "liquidos",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -2575,7 +2575,7 @@ const PRODUCTS = [
         "id": "p116",
         "brand": "Big Cola",
         "name": "Big Cola Zero 3.03 lt",
-        "category": "bebidas",
+        "category": "liquidos",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -2597,7 +2597,7 @@ const PRODUCTS = [
         "id": "p117",
         "brand": "Big Cola",
         "name": "Agua Vida sin gas 1600 mml",
-        "category": "bebidas",
+        "category": "liquidos",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -2619,7 +2619,7 @@ const PRODUCTS = [
         "id": "p118",
         "brand": "Big Cola",
         "name": "Agua Vida con gas 1600 ml",
-        "category": "bebidas",
+        "category": "liquidos",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -2641,7 +2641,7 @@ const PRODUCTS = [
         "id": "p119",
         "brand": "Big Cola",
         "name": "Agua Vida sin gas 1600 ml",
-        "category": "bebidas",
+        "category": "liquidos",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -2663,7 +2663,7 @@ const PRODUCTS = [
         "id": "p120",
         "brand": "Coca Cola",
         "name": "Bendictino sin gas 500 ml",
-        "category": "bebidas",
+        "category": "liquidos",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -2685,7 +2685,7 @@ const PRODUCTS = [
         "id": "p121",
         "brand": "Coca Cola",
         "name": "Benedictino sin gas 500 ml",
-        "category": "bebidas",
+        "category": "liquidos",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -2707,7 +2707,7 @@ const PRODUCTS = [
         "id": "p122",
         "brand": "Big Cola",
         "name": "Big cola Lata 473 ml x 6",
-        "category": "bebidas",
+        "category": "liquidos",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -2729,7 +2729,7 @@ const PRODUCTS = [
         "id": "p123",
         "brand": "Big Cola",
         "name": "Big Cola Zero Lata 473 ml x 6",
-        "category": "bebidas",
+        "category": "liquidos",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -2751,7 +2751,7 @@ const PRODUCTS = [
         "id": "p124",
         "brand": "Big Cola",
         "name": "Agua Vida sin gas 600 mml",
-        "category": "bebidas",
+        "category": "liquidos",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -2773,7 +2773,7 @@ const PRODUCTS = [
         "id": "p125",
         "brand": "Big Cola",
         "name": "Agua Vida con gas 600 mml",
-        "category": "bebidas",
+        "category": "liquidos",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -2795,7 +2795,7 @@ const PRODUCTS = [
         "id": "p126",
         "brand": "Big Cola",
         "name": "Vital sin gas 600 ml",
-        "category": "bebidas",
+        "category": "liquidos",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -2817,7 +2817,7 @@ const PRODUCTS = [
         "id": "p127",
         "brand": "Big Cola",
         "name": "Vital con gas 600 ml",
-        "category": "bebidas",
+        "category": "liquidos",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -2839,7 +2839,7 @@ const PRODUCTS = [
         "id": "p128",
         "brand": "Canoro",
         "name": "Energetica canoro 500ml",
-        "category": "bebidas",
+        "category": "liquidos",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -2861,7 +2861,7 @@ const PRODUCTS = [
         "id": "p129",
         "brand": "Canoro",
         "name": "Limonada Canoro 600 ml Frambuesa",
-        "category": "abarrotes",
+        "category": "liquidos",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -2883,7 +2883,7 @@ const PRODUCTS = [
         "id": "p130",
         "brand": "Canoro",
         "name": "Limonada Canoro 600 ml Maracuya",
-        "category": "abarrotes",
+        "category": "liquidos",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -2905,7 +2905,7 @@ const PRODUCTS = [
         "id": "p131",
         "brand": "Canoro",
         "name": "Limonada Canoro 600 ml Maqui Berries",
-        "category": "abarrotes",
+        "category": "liquidos",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -2927,7 +2927,7 @@ const PRODUCTS = [
         "id": "p132",
         "brand": "Canoro",
         "name": "Limonada Canoro 600 ml Menta Jenjibre",
-        "category": "abarrotes",
+        "category": "liquidos",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -2949,7 +2949,7 @@ const PRODUCTS = [
         "id": "p133",
         "brand": "Canoro",
         "name": "Limonada Canoro 600 ml",
-        "category": "abarrotes",
+        "category": "liquidos",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -2971,7 +2971,7 @@ const PRODUCTS = [
         "id": "p134",
         "brand": "Coca Cola",
         "name": "Pack Coca cola 591 ml x 6",
-        "category": "bebidas",
+        "category": "liquidos",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -2993,7 +2993,7 @@ const PRODUCTS = [
         "id": "p135",
         "brand": "Coca Cola",
         "name": "Pack Coca Zero 591 ml x6",
-        "category": "bebidas",
+        "category": "liquidos",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -3015,7 +3015,7 @@ const PRODUCTS = [
         "id": "p136",
         "brand": "Coca Cola",
         "name": "Pack Fanta 591 ml x6",
-        "category": "bebidas",
+        "category": "liquidos",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -3037,7 +3037,7 @@ const PRODUCTS = [
         "id": "p137",
         "brand": "Coca Cola",
         "name": "Pack Sprite 591 ml",
-        "category": "bebidas",
+        "category": "liquidos",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -3059,7 +3059,7 @@ const PRODUCTS = [
         "id": "p138",
         "brand": "Coca Cola",
         "name": "Jugo del Valle Naranja 200ml x 6",
-        "category": "bebidas",
+        "category": "liquidos",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -3081,7 +3081,7 @@ const PRODUCTS = [
         "id": "p139",
         "brand": "Coca Cola",
         "name": "Jugo del Valle Piña 200ml x 6",
-        "category": "bebidas",
+        "category": "liquidos",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -3103,7 +3103,7 @@ const PRODUCTS = [
         "id": "p140",
         "brand": "Coca Cola",
         "name": "Jugo del Valle Manzana  200ml x 6",
-        "category": "bebidas",
+        "category": "liquidos",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
@@ -3125,7 +3125,7 @@ const PRODUCTS = [
         "id": "p141",
         "brand": "Coca Cola",
         "name": "Jugo del Valle Durazno 200ml x 6",
-        "category": "bebidas",
+        "category": "liquidos",
         "type": "Alimentos",
         "availability": "stock",
         "clientTypes": [
